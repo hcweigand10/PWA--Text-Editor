@@ -26,13 +26,13 @@ module.exports = () => {
       }),
       new MiniCssExtractPlugin(),
       new InjectManifest({
-        swSrc: './src-sw.js',
+        swSrc: './service-worker.js',
         swDest: 'service-worker.js',
       }), 
       new WebpackPwaManifest({
-        name: 'TODOs',
-        short_name: 'TODOs',
-        description: 'Keep track of important tasks!',
+        name: 'JATE',
+        short_name: 'JATE',
+        description: 'Do stuff!',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
         start_url: '/',
