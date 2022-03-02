@@ -33,7 +33,7 @@ export const getDb = async () => {
   const request = store.getAll();
   const result = await request;
   console.log('result', result);
-  return result.value;
+  return result.jate;
 }
 
 initdb();
